@@ -6,7 +6,7 @@ const CardList = ({robots}) => {
 	return (
 		<div>
 			{
-				robots.amp((user, i) =>{
+				robots.map((user, i) =>{
 					return (
 						<Card
 						key={i}
